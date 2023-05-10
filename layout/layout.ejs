@@ -1,3 +1,11 @@
+<!--
+ * @Author: Gianni
+ * @Date: 2021-07-25 11:07:17
+ * @LastEditTime: 2021-07-25 12:14:39
+ * @LastEditors: Gianni
+ * @Description: *
+ * @FilePath: \blogs\themes\yilia-plus\layout\layout.ejs
+-->
 <!DOCTYPE html>
 <html>
 <%- partial('_partial/head') %>
@@ -11,7 +19,7 @@
     <div class="mid-col" q-class="show:isShow,hide:isShow|isFalse">
       <% if (theme.github && theme.github.url){ %>
       <%# "GitHub Ribbons" %>
-      <a class="forkMe" style="position:absolute;z-index:999;top:0;right:0.5em;" 
+      <a class="forkMe" style="position:absolute;z-index:999;top:0;right:0.5em; display:none" 
         href="<%=theme.github.url%>" target="_blank">
         <img src="<%- url_for('img/forkme.png') %>"
           class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>

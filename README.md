@@ -403,7 +403,7 @@ friends:
     url: https://blog.csdn.net/qq_30930805
 
 # 关于我
-aboutme: 主要涉及技术：<br>Java后端开发、聚合支付、<br>公众号开发、开源爱好者、Linux<br><br>联系QQ:2434387555<br><br>很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 主要涉及技术：<br>web前端开发<br>小程序开发、APP开发、网站搭建<br><br>联系QQ:2297698810<br><br>很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
 ```
 
 
